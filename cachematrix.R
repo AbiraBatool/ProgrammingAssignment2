@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## cacheSolve() first determines whether inverse of inputted matrix 
 ## is in Cache or not. If it is, it is outputed from Cache. IF its not in 
 ## Cache then it calculates the inverse of matrix, output it and also place
-## it in cache fr further use
+## it in cache for further use
 
 
 cacheSolve <- function(x, ...) {
